@@ -1,0 +1,1 @@
+puts 'This method will not print anything to the screen, because it return before the puts gets evaluated'

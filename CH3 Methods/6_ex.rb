@@ -1,0 +1,1 @@
+puts 'This message was called with only one arguement, but it needs two to work'
