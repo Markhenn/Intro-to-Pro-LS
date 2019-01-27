@@ -1,1 +1,10 @@
-An the values in an array are retrived by an index. In a hash the values are retrieved by a key. Its a key value pair.
+hash1 = {shoes: "nike", "hat" => "adidas", :hoodie => true}
+hash2 = {"hat" => "adidas", :shoes => "nike", hoodie: true}
+
+if hash1 == hash2
+  puts "These hashes are the same!"
+else
+  puts "These hashes are not the same!"
+end
+
+1. It puts out : "These hashes are the same!"

@@ -1,1 +1,8 @@
-An the values in an array are retrived by an index. In a hash the values are retrieved by a key. Its a key value pair.
+a = ['white snow', 'winter wonderland', 'melting ice',
+     'slippery sidewalk', 'salted roads', 'white trees']
+
+b = a.map {|item| item.split}
+
+b.flatten!
+
+p b
